@@ -3,6 +3,10 @@
   "compilerOptions": {
     //"outDir": "dist"
     "baseUrl": ".",
+    "moduleResolution": "bundler",
+    "extensionAlias": {
+      ".js": [".ts", ".tsx"]
+    },
     "paths": {
       "@workspace/ui/*": ["./src/*"]
     }
